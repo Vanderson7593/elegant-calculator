@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import { css } from '@emotion/react'
+import theme from '@styles/theme'
 
 export const globalStyles = css`
   * {
@@ -10,9 +11,8 @@ export const globalStyles = css`
   }
   html,
   body {
-    font-family: Montserrat, Open Sans, -apple-system, BlinkMacSystemFont,
-      Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-      Helvetica Neue, sans-serif;
+    font-family: Montserrat, Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
   input {
     border: none;

@@ -1,3 +1,4 @@
+import Calculator from '@components/calculator'
 import Head from 'next/head'
 import { FC } from 'react'
 import { Container } from '../styles/global.styles'
@@ -9,7 +10,9 @@ const Home: FC = () => {
         <title>Elegant calculator</title>
       </Head>
 
-      <main></main>
+      <main>
+        <Calculator />
+      </main>
     </Container>
   )
 }
