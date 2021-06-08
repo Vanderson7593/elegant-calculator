@@ -5,8 +5,8 @@
 ##Screenshots
 
 <p float="left">
-<img height=420 width=200 src="https://github.com/Vanderson7593/elegant-calculator/blob/develop/screenshots/light-theme.png"/>
-<img height=420 width=200 src="https://github.com/Vanderson7593/elegant-calculator/blob/develop/screenshots/dark-theme.png"/>
+<img height=480 width=200 src="https://github.com/Vanderson7593/elegant-calculator/blob/develop/screenshots/light-theme.png"/>
+<img height=480 width=200 src="https://github.com/Vanderson7593/elegant-calculator/blob/develop/screenshots/dark-theme.png"/>
 </p>
 
 ## Installation
