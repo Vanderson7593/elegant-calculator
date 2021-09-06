@@ -1,21 +1,13 @@
 import { createContext, FC, useContext, useState } from 'react'
 import { DarkTheme, LightTheme } from '@styles/index'
 import { ThemeProvider } from '@material-ui/core/styles'
+import { EModes } from '@components/calculator/types'
+import { IThemeContextProperties } from './types'
 
-enum EModes {
-  Light = 'light',
-  Dark = 'dark'
-}
-
-const Themes = {
+export const Themes = {
   [EModes.Light]: LightTheme,
   [EModes.Dark]: DarkTheme
 } as const
-
-interface IThemeContextProperties {
-  themeMode: EModes
-  updateThemeMode: (mode: EModes) => void
-}
 
 const ThemeContext = createContext<IThemeContextProperties | null>(null)
 
