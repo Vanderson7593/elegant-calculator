@@ -19,11 +19,7 @@
     "paths": {
       "@components/*": ["./components/*"],
       "@context/*": ["./context/*"],
-      "@hooks/*": ["hooks/*"],
-      "@styles/*": ["styles/*"],
-      "@server/*": ["server/*"],
-      "@constants/*": ["constants/*"],
-      "@helpers/*": ["helpers/*"]
+      "@styles": ["./styles/index.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.d.ts", "*.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.hbs"],

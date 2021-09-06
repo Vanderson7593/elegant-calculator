@@ -1,5 +1,5 @@
 import { createContext, FC, useContext, useState } from 'react'
-import { DarkTheme, LightTheme } from '@styles/index'
+import { DarkTheme, LightTheme } from '@styles'
 import { ThemeProvider } from '@material-ui/core/styles'
 import { EModes } from '@components/calculator/types'
 import { IThemeContextProperties } from './types'
