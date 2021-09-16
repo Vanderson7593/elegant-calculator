@@ -1,6 +1,6 @@
 # This is a standart calculator
 
-#Nextjs #ContextAPI #MaterialUI #BestPratices
+Run the app hosted in vercel https://elegant-calculator.vercel.app/
 
 ##Screenshots
 
