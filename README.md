@@ -1,4 +1,4 @@
-# This is a standart calculator
+# This is a standard calculator
 
 Run the app hosted in vercel https://elegant-calculator.vercel.app/
 
